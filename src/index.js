@@ -12,6 +12,7 @@ import Estadio from './components/Estadio'
 //             document.getElementById('root'))
 import {BomDia, BoaTarde} from './components/Saudacoes'
 import Saudacoes from './components/Saudacoes'
+import Produto from './classes/Produto'
 ReactDOM.render(
             <React.Fragment>
                 <Jogo timeA="Sesi Franca" timeB="Flamengo"/>
@@ -19,5 +20,6 @@ ReactDOM.render(
                 <BomDia timeA="Sesi Franca"/>
                 <BoaTarde timeB="Flamengo"/>
                 <Saudacoes.BoaNoite timeB="Flamengo"/>
+                <Produto/>
              </React.Fragment> ,
             document.getElementById('root'))
